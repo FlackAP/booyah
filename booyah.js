@@ -18,6 +18,10 @@ var booyah = {
     ready: function() {
         this.templateString = this.templateArray.join('');
         this.replaceTags( this.templateString );
+        
+        this.templateTagKeys = [];
+        this.templateTagValues = [];
+        this.templateArray = [];
 
         return this.templateString;
     },
