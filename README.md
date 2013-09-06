@@ -8,7 +8,9 @@ Decide what you want your tamplate tags to look like and replace them with the c
 A quick example:
 
 ```js
-yourTemplate = booyah
+yourCopy = booyah;
+
+yourTemplate = yourCopy
   .addTemplate('<a href="{{ avatar }}">{{ name }}</a>')
   .addTag('{{ avatar }}', 'http://example.com/kevin.jpg')
   .addTag('{{ name }}', 'Kevin Dees')
