@@ -3,7 +3,7 @@ Booyah!
 
 The easy mode template parser in JavaScript.
 
-Decide what you want your tamplate tags to look like and replace them with the content you want. Super small no predefined syntax rules.
+Decide what you want your template tags to look like and replace them with the content you want. Super small no predefined syntax rules.
 
 A quick example:
 
